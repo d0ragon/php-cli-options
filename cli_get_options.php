@@ -4,7 +4,7 @@ function cli_get_options ()
 {
   global $argv;
 
-  $regex = '/((\-([a-zA-Z])(\s|=)?)|(\-{2}([a-zA-Z]+[a-zA-Z0-9_]*)(\s|=)))([a-zA-Z0-9]+)/';
+  $regex = '/((\-([a-zA-Z])(\s|=)?)|(\-{2}([a-zA-Z]+[a-zA-Z0-9_]*)(\s|=)))(.[^\s]+)/';
   preg_match_all($regex, implode(' ', array_slice($argv, 1)), $matches);
 
   $opts = array();
