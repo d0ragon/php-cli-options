@@ -1,3 +1,6 @@
+update: deprecated. use php native getopt
+===============
+
 php-cli-options
 ===============
 
