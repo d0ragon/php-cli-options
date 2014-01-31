@@ -1,4 +1,4 @@
-update: deprecated. use php native getopt
+update: deprecated. use php native [getopt](http://www.php.net/manual/en/function.getopt.php)
 ===============
 
 php-cli-options
